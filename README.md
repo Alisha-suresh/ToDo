@@ -43,9 +43,9 @@ Open `appsettings.json` and configure JWT settings:
 ### 3. Generate a Secure JWT Secret Key
 
 Run the following command in your terminal/command prompt to generate a secure key:
-
+```
 openssl rand -base64 32
-
+```
 Copy the generated key and replace YourSecretKeyHere in appsettings.json.
 ### 4. Run the Application
 ```bash
