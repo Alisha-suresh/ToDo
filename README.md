@@ -222,6 +222,6 @@ The application will start at `http://localhost:5067`.
 - Introduce a database for larger-scale applications.  
 
 ## Troubleshooting
-- Ensure .NET 6.0 SDK is installed.  
+- Ensure .NET 8.0 SDK is installed.  
 - Check JWT configuration.  
 - Verify file permissions for JSON storage.
