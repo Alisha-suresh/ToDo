@@ -4,14 +4,14 @@
 This is a secure, feature-rich To-Do List API built with ASP.NET Core, featuring robust authentication, authorisation, and advanced filtering capabilities.
 
 ## Technology Stack
-- **Framework:** ASP.NET Core 6.0  
+- **Framework:** ASP.NET Core 8.0  
 - **Authentication:** JWT (JSON Web Tokens)  
 - **Logging:** Serilog  
 - **Data Storage:** JSON File-based Storage  
 - **API Documentation:** Swagger  
 
 ## Prerequisites
-- .NET 6.0 SDK  
+- .NET 8.0 SDK  
 - Visual Studio 2022 or Visual Studio Code  
 - Postman (for API testing)  
 
@@ -40,8 +40,14 @@ Open `appsettings.json` and configure JWT settings:
   }
 }
 ```
+### 3. Generate a Secure JWT Secret Key
 
-### 3. Run the Application
+Run the following command in your terminal/command prompt to generate a secure key:
+
+openssl rand -base64 32
+
+Copy the generated key and replace YourSecretKeyHere in appsettings.json.
+### 4. Run the Application
 ```bash
 dotnet restore
 dotnet run
