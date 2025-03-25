@@ -1,0 +1,4 @@
+2025-03-25 00:18:39.774 +00:00 [INF] Starting the application
+2025-03-25 01:17:49.596 +00:00 [INF] Starting the application
+2025-03-25 01:25:43.669 +00:00 [INF] Starting the application
+2025-03-25 01:38:16.295 +00:00 [INF] Starting the application
